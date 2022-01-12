@@ -12,7 +12,7 @@ exports.mul = (num1, num2) => {
 
 exports.div = (num1, num2) => {
     if (num2 === 0){
-        return "you can't divide by 0"
+        return "NaN"
     }else{
         return (num1 / num2).toString();
     }
